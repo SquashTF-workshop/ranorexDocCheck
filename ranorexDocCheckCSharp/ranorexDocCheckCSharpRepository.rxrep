@@ -1,0 +1,319 @@
+﻿<repository
+id="0ada27cc-75b0-40f9-a25c-2895af9247f1"
+name="ranorexDocCheckCSharpRepository">
+	<codegen
+	classname="ranorexDocCheckCSharpRepository"
+	namespace="ranorexDocCheckCSharp">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="c98d9b1c-bf36-4063-acdd-8e2254995b78"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="844b3a0d-4094-44e3-8e1c-4fd5cb8555fd"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="a797c8b6-4cd9-4ddb-82a6-8b26b61538ca"
+			name="WelcomeToSquashTFComponentsDocument"
+			refimgid="c34a8190-6b82-4390-b250-935214958e8b"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']//div[#'welcome-to-squash-tf-components-documentation']/h1[@innertext>'Welcome to Squash TF components']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='squash-tf.readthedocs.io']//div[#'welcome-to-squash-tf-components-documentation']/h1[@innertext&gt;'Welcome to Squash TF components']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="5299b317-524d-44f3-8903-0e62b14f6d5b"
+			name="SquashTFJavaJunitRunner"
+			refimgid="f6bfa73f-f91e-4683-80f9-0709e2b4259f"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']//div[#'runners']/ul[2]/li[1]/a[@innertext>'Squash TF Java Junit Runn']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='squash-tf.readthedocs.io']//div[#'runners']//a[@innertext&gt;'Squash TF Java Junit Runn']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="0fd2a820-3ef7-4354-b3fc-1893d4a2319a"
+			name="SquashTFJavaJunitRunner1"
+			refimgid="fa9dbd4d-8475-4f86-aba5-ec232f3ebaad"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']//div[#'squash-tf-java-junit-runner']/h1[@innertext='Squash TF Java Junit Runner']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='squash-tf.readthedocs.io']//div[#'squash-tf-java-junit-runner']/h1[@innertext&gt;'Squash TF Java Junit Runn']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="1c7319fc-8024-482a-9513-7422adaf776e"
+			name="TFParamService"
+			refimgid="483f01aa-5c12-4a10-ba80-dafeb4e7f1f3"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']/body/div[1]/nav/div/div[2]/ul/li[5]/a[@innertext='TF Param Service']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='squash-tf.readthedocs.io']//nav//ul/li[5]/a[@innertext='TF Param Service']
+			</item>
+			<item
+			addcaps="unknown,webelement,pretag"
+			capname="pretag"
+			id="acbc1438-39b4-4d42-b6f9-a1a7f67a0b95"
+			name="OrgSquashtestTaGalaxiatfParamServic"
+			refimgid="d2a7c43c-ee06-4e3b-bb81-dc8e42e5cf66"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']//div[#'configuration']/blockquote/div/div/div/pre[@innertext='org.squashtest.ta.galaxiatf-param-service1.0.0-RELEASE']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='squash-tf.readthedocs.io']//div[#'configuration']/blockquote//pre[@innertext&gt;'org.squashtest.ta.galaxia']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="6ad4492e-ddf3-4ca4-90cb-37acecacb388"
+			name="TFParamService1"
+			refimgid="9ef3053c-b66f-4751-8f13-386fd82a37fe"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']//div[#'tf-param-service']/h1[@innertext='TF Param Service']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='squash-tf.readthedocs.io']//div[#'tf-param-service']/h1[@innertext='TF Param Service']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="10031dd4-e5aa-4671-98f9-734f6426971c"
+			name="SquashTFCucumberJavaRunner"
+			refimgid="cb41f252-fcdb-4612-a3ac-099cce7f7cf3"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']//div[#'runners']/ul[2]/li[2]/a[@innertext='Squash TF Cucumber Java Runner']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='squash-tf.readthedocs.io']//div[#'runners']//a[@innertext&gt;'Squash TF Cucumber Java R']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="5e9adc22-22e3-4d57-ab2b-5928ab056efa"
+			name="SquashTFCucumberJavaRunner1"
+			refimgid="92983934-3176-464b-bf83-f6227499e81b"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']//div[#'squash-tf-cucumber-java-runner']/h1[@innertext='Squash TF Cucumber Java Runner']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='squash-tf.readthedocs.io']//div[#'squash-tf-cucumber-java-runner']/h1[@innertext&gt;'Squash TF Cucumber Java R']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="d76c31d1-3e76-44e5-ab86-393298d51af0"
+			name="RunnersOptionsPOM"
+			refimgid="514792db-e464-4504-84ef-6a90ac951822"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']/body/div[1]/nav/div/div[2]/ul/li[5]/a[@innertext='Runner’s options (POM)']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='squash-tf.readthedocs.io']//nav//ul/li[5]/a[@innertext='Runner’s options (POM)']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="6ce069f1-39a0-4d13-b19a-c1f4ef93f535"
+			name="RunnersOptionsPOM1"
+			refimgid="b7cd1cf2-4bb1-4f65-8fd4-7b827d039da6"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']//div[#'runner-s-options-pom']/h1[@innertext='Runner’s options (POM)']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='squash-tf.readthedocs.io']//div[#'runner-s-options-pom']/h1[@innertext='Runner’s options (POM)']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="82dbada6-f606-45cf-8971-d42752c79ec1"
+			name="HttpRepoSquashtestOrgMaven2Releas"
+			refimgid="9667faea-1834-4e78-b0f4-c2960f8a1f11"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']//div[#'runner-s-version']/p[@innertext='See  for all available versions.']/a[@innertext='http://repo.squashtest.org/maven2/release/org/squashtest/ta/galaxia/squash-ta-cucumber/']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='squash-tf.readthedocs.io']//div[#'runner-s-version']/?/?/a[@innertext&gt;'http://repo.squashtest.or']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="80ecdb2d-33ad-4e7f-9f48-377e09bb2e37"
+			name="SquashTFExecutionServer"
+			refimgid="19370d45-7267-4d09-ab52-978d795fcfcd"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']//div[#'squash-tf-execution-server']/h1[@innertext='Squash TF Execution Server']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='squash-tf.readthedocs.io']//div[#'squash-tf-execution-server']/h1[@innertext&gt;'Squash TF Execution Serve']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="2275d982-f406-49ef-b63a-866052e9bb1e"
+			name="SquashTFExecutionServer1"
+			refimgid="e76745ac-fd78-4131-b666-c6bb43be3797"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']//div[#'squash-tf-execution-server']/div/ul/li[1]/a[@innertext='Squash TF Execution Server']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='squash-tf.readthedocs.io']//div[#'squash-tf-execution-server']/?/?/ul/?/?/a[@innertext&gt;'Squash TF Execution Serve']
+			</item>
+			<folder
+			addcaps="unknown,webelement,ultag"
+			capname="ultag"
+			id="b7a64a6f-e1d0-4339-ba47-4b92b53db6ea"
+			isrooted="True"
+			name="SomeUlTag"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']/body/div[1]/nav/div/div[2]/ul"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="a96dd306-7d9d-410c-a933-1e71475095e7"
+				name="Administration"
+				refimgid="31f75655-bc31-4ed7-9de1-fd8c0da47d34"
+				refpath="/dom[@domain='squash-tf.readthedocs.io']/body/div[1]/nav/div/div[2]/ul/li[2]/a[@innertext='Administration']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='squash-tf.readthedocs.io']//nav//ul/li[2]/a[@innertext='Administration']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="5988670b-034a-4345-9591-7708c2c8965c"
+				name="ExecutionServer"
+				refimgid="c32be82f-cd8e-40f2-8cc4-83cdc6b868cf"
+				refpath="/dom[@domain='squash-tf.readthedocs.io']/body/div[1]/nav/div/div[2]/ul/li[2]/a[@innertext='Execution Server']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='squash-tf.readthedocs.io']//nav//ul/li[2]/a[@innertext='Execution Server']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="b5b4c146-077a-4f67-bc2c-a6cf79662ec1"
+				name="Usage"
+				refimgid="e1583cdd-f464-447f-9f8d-7a66f1ca4fa0"
+				refpath="/dom[@domain='squash-tf.readthedocs.io']/body/div[1]/nav/div/div[2]/ul/li[3]/a[@innertext='Usage']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='squash-tf.readthedocs.io']//nav//ul/li[3]/a[@innertext='Usage']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="50f6fde9-b6ee-4a69-89c5-54eccb946ccc"
+				name="Download"
+				refimgid="7770f386-6c57-49a4-a1c1-17cc5fccf815"
+				refpath="/dom[@domain='squash-tf.readthedocs.io']/body/div[1]/nav/div/div[2]/ul/li[5]/a[@innertext='Download']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='squash-tf.readthedocs.io']//nav//ul/li[5]/a[@innertext='Download']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="2e1ac6f3-441f-4859-97c6-896b974b66ae"
+				name="Runners"
+				refimgid="26be287e-0773-4386-b2db-1d28e94b1d4f"
+				refpath="/dom[@domain='squash-tf.readthedocs.io']/body/div[1]/nav/div/div[2]/ul/li[3]/a[@innertext='Runners']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='squash-tf.readthedocs.io']//nav//ul/li[3]/a[@innertext='Runners']
+				</item>
+				<basepath>
+					/dom[@domain='squash-tf.readthedocs.io']//nav//ul
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="548ca678-7391-4098-b5ef-950b87f3c1b6"
+			name="SquashTFRunners"
+			refimgid="2bf0e482-8897-4955-ac90-266663bfbc0e"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']//div[#'squash-tf-runners']/h1[@innertext='Squash TF Runners']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='squash-tf.readthedocs.io']//div[#'squash-tf-runners']/h1[@innertext='Squash TF Runners']
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="1ebfa685-ce97-4f8f-878e-adcc50ffea35"
+			name="Maven350"
+			refimgid="0b04fab2-36fb-459d-89b7-89dd312a2fdb"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']//div[#'environment-configuration']/ul[1]/li[@innertext='maven: 3.5.0']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='squash-tf.readthedocs.io']//div[#'environment-configuration']/ul[1]/li[@innertext='maven: 3.5.0']
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="b5317db5-00d1-484d-b3a9-8c697445d792"
+			name="Java18"
+			refimgid="097145ff-ee99-44bb-8383-a7184577845f"
+			refpath="/dom[@domain='squash-tf.readthedocs.io']//div[#'environment-configuration']/ul[1]/li[@innertext='java: 1.8']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='squash-tf.readthedocs.io']//div[#'environment-configuration']/ul[1]/li[@innertext='java: 1.8']
+			</item>
+			<basepath>
+				/dom[@domain='squash-tf.readthedocs.io']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="55c5270a-84a9-42cd-99a7-f3b90600ae49"
+		isrooted="True"
+		name="TrialActivationRanorexTestAutomati"
+		refpath="/dom[@domain='www.ranorex.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

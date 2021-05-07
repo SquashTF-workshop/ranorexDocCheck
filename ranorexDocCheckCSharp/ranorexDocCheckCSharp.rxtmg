@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="ranorexDocCheckCSharp"
+      id="b22ca72c-b9e6-40a3-9347-95b6bfca8427"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="ranorexDocCheckCSharp"
+      id="b22ca72c-b9e6-40a3-9347-95b6bfca8427"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

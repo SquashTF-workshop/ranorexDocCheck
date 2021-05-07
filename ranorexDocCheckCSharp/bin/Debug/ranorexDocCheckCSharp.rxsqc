@@ -1,0 +1,12 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "FirefoxDocCheck",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "ParamDocCheck",
+    "RunConfig": "TestRun"
+  }
+]

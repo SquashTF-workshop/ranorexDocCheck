@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b9180c35-da3e-4176-8e5c-bfb5e0e79ef2"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="ranorexDocCheckCSharp.Recordings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="3622a59b-7785-4e5c-83bc-e2503daabc08">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="844b3a0d-4094-44e3-8e1c-4fd5cb8555fd"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='squash-tf.readthedocs.io']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="0ada27cc-75b0-40f9-a25c-2895af9247f1"
+	name="ranorexDocCheckCSharpRepository"
+	relativepath="..\ranorexDocCheckCSharpRepository.rxrep">
+		<codegen
+		classname="ranorexDocCheckCSharpRepository"
+		namespace="ranorexDocCheckCSharp">
+		</codegen>
+		<rootfolder
+		id="c98d9b1c-bf36-4063-acdd-8e2254995b78"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

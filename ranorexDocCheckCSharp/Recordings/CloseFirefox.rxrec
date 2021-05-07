@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d668e623-391e-4d06-9453-b83d31cc3b32"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseFirefox"
+	namespace="ranorexDocCheckCSharp.Recordings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="04e52014-c4ca-460e-a5b7-e467fbf3543e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="844b3a0d-4094-44e3-8e1c-4fd5cb8555fd"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='firefox']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="0ada27cc-75b0-40f9-a25c-2895af9247f1"
+	name="ranorexDocCheckCSharpRepository"
+	relativepath="..\ranorexDocCheckCSharpRepository.rxrep">
+		<codegen
+		classname="ranorexDocCheckCSharpRepository"
+		namespace="ranorexDocCheckCSharp">
+		</codegen>
+		<rootfolder
+		id="c98d9b1c-bf36-4063-acdd-8e2254995b78"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseFirefox.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

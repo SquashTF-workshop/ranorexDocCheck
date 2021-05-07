@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3520e99b-22ce-456f-bb62-10d6aed0df2b"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="ranorexDocCheckCSharp.Recordings">
+	</codegen>
+	<variables>
+		<var
+		id="238f9002-8d55-4369-a70f-2a6a6398fc73"
+		name="browser">
+		</var>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="IE"
+		clearcache="False"
+		clearcookies="False"
+		duration="100ms"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="BrowserName"
+				variable="browser">
+				</binding>
+			</bindings>
+			<url>
+				https://squash-tf.readthedocs.io/en/latest/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="0ada27cc-75b0-40f9-a25c-2895af9247f1"
+	name="ranorexDocCheckCSharpRepository"
+	relativepath="..\ranorexDocCheckCSharpRepository.rxrep">
+		<codegen
+		classname="ranorexDocCheckCSharpRepository"
+		namespace="ranorexDocCheckCSharp">
+		</codegen>
+		<rootfolder
+		id="c98d9b1c-bf36-4063-acdd-8e2254995b78"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,39 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="FirefoxDocCheck.rxtst" />
+    <Element value="app.config" />
+    <Element value="Program.cs" />
+    <Element value="Recordings\OpenBrowser.rxrec" />
+    <Element value="ParamDocCheck.rxtst" />
+    <Element value="Recordings\OpenFirefox.rxrec" />
+    <Element value="Recordings\OpenChrome.rxrec" />
+    <Element value="Recordings\CheckVersion.rxrec" />
+    <Element value="Recordings\GoToRunners.rxrec" />
+    <Element value="Recordings\CloseBrowser.rxrec" />
+    <Element value="Recordings\CheckSideBarVal.rxrec" />
+    <Element value="Recordings\GoToTFParamDoc.rxrec" />
+    <Element value="Recordings\CloseFirefox.rxrec" />
+    <Element value="ranorexDocCheckCSharpRepository.rxrep" />
+    <Element value="AssemblyInfo.cs" />
+    <Element value="ranorexDocCheckCSharp.rxtmg" />
+    <Element value="ranorexDocCheckCSharp.rxsqc" />
+    <Element value="UserCodeModule1.cs" />
+    <Element value="Recordings\CheckMvnRepoLink.rxrec" />
+    <Element value="Recordings\GoToJUnitRunnerDoc.UserCode.cs" />
+    <Element value="Recordings\CheckTFParamDependency.UserCode.cs" />
+    <Element value="Recordings\CheckTFParamDependency.rxrec" />
+    <Element value="Recordings\GoToRunnerOptions.rxrec" />
+    <Element value="Recordings\GoToCucumberDoc.rxrec" />
+    <Element value="ranorexDocCheckCSharpRepository.cs" />
+    <Element value="ranorexDocCheckCSharpRepository.rximg" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

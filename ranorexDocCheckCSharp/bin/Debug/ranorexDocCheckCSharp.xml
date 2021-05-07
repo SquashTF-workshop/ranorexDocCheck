@@ -1,0 +1,965 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ranorexDocCheckCSharp</name>
+    </assembly>
+    <members>
+        <member name="T:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository">
+            <summary>
+            The class representing the ranorexDocCheckCSharpRepository element repository.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the ranorexDocCheckCSharpRepository element repository.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository.TrialActivationRanorexTestAutomati">
+            <summary>
+            The TrialActivationRanorexTestAutomati folder.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.WelcomeToSquashTFComponentsDocument">
+            <summary>
+            The WelcomeToSquashTFComponentsDocument item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.WelcomeToSquashTFComponentsDocumentInfo">
+            <summary>
+            The WelcomeToSquashTFComponentsDocument item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.SquashTFJavaJunitRunner">
+            <summary>
+            The SquashTFJavaJunitRunner item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.SquashTFJavaJunitRunnerInfo">
+            <summary>
+            The SquashTFJavaJunitRunner item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.SquashTFJavaJunitRunner1">
+            <summary>
+            The SquashTFJavaJunitRunner1 item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.SquashTFJavaJunitRunner1Info">
+            <summary>
+            The SquashTFJavaJunitRunner1 item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.TFParamService">
+            <summary>
+            The TFParamService item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.TFParamServiceInfo">
+            <summary>
+            The TFParamService item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.OrgSquashtestTaGalaxiatfParamServic">
+            <summary>
+            The OrgSquashtestTaGalaxiatfParamServic item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.OrgSquashtestTaGalaxiatfParamServicInfo">
+            <summary>
+            The OrgSquashtestTaGalaxiatfParamServic item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.TFParamService1">
+            <summary>
+            The TFParamService1 item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.TFParamService1Info">
+            <summary>
+            The TFParamService1 item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.SquashTFCucumberJavaRunner">
+            <summary>
+            The SquashTFCucumberJavaRunner item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.SquashTFCucumberJavaRunnerInfo">
+            <summary>
+            The SquashTFCucumberJavaRunner item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.SquashTFCucumberJavaRunner1">
+            <summary>
+            The SquashTFCucumberJavaRunner1 item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.SquashTFCucumberJavaRunner1Info">
+            <summary>
+            The SquashTFCucumberJavaRunner1 item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.RunnersOptionsPOM">
+            <summary>
+            The RunnersOptionsPOM item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.RunnersOptionsPOMInfo">
+            <summary>
+            The RunnersOptionsPOM item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.RunnersOptionsPOM1">
+            <summary>
+            The RunnersOptionsPOM1 item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.RunnersOptionsPOM1Info">
+            <summary>
+            The RunnersOptionsPOM1 item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.HttpRepoSquashtestOrgMaven2Releas">
+            <summary>
+            The HttpRepoSquashtestOrgMaven2Releas item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.HttpRepoSquashtestOrgMaven2ReleasInfo">
+            <summary>
+            The HttpRepoSquashtestOrgMaven2Releas item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.SquashTFExecutionServer">
+            <summary>
+            The SquashTFExecutionServer item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.SquashTFExecutionServerInfo">
+            <summary>
+            The SquashTFExecutionServer item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.SquashTFExecutionServer1">
+            <summary>
+            The SquashTFExecutionServer1 item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.SquashTFExecutionServer1Info">
+            <summary>
+            The SquashTFExecutionServer1 item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.SquashTFRunners">
+            <summary>
+            The SquashTFRunners item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.SquashTFRunnersInfo">
+            <summary>
+            The SquashTFRunners item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.Maven350">
+            <summary>
+            The Maven350 item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.Maven350Info">
+            <summary>
+            The Maven350 item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.Java18">
+            <summary>
+            The Java18 item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.Java18Info">
+            <summary>
+            The Java18 item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.ApplicationUnderTestAppFolder.SomeUlTag">
+            <summary>
+            The SomeUlTag folder.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.SomeUlTagFolder">
+            <summary>
+            The SomeUlTagFolder folder.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.SomeUlTagFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SomeUlTag  folder.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.SomeUlTagFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.SomeUlTagFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.SomeUlTagFolder.Administration">
+            <summary>
+            The Administration item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.SomeUlTagFolder.AdministrationInfo">
+            <summary>
+            The Administration item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.SomeUlTagFolder.ExecutionServer">
+            <summary>
+            The ExecutionServer item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.SomeUlTagFolder.ExecutionServerInfo">
+            <summary>
+            The ExecutionServer item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.SomeUlTagFolder.Usage">
+            <summary>
+            The Usage item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.SomeUlTagFolder.UsageInfo">
+            <summary>
+            The Usage item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.SomeUlTagFolder.Download">
+            <summary>
+            The Download item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.SomeUlTagFolder.DownloadInfo">
+            <summary>
+            The Download item info.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.SomeUlTagFolder.Runners">
+            <summary>
+            The Runners item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.SomeUlTagFolder.RunnersInfo">
+            <summary>
+            The Runners item info.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.TrialActivationRanorexTestAutomatiAppFolder">
+            <summary>
+            The TrialActivationRanorexTestAutomatiAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.TrialActivationRanorexTestAutomatiAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TrialActivationRanorexTestAutomati  folder.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.TrialActivationRanorexTestAutomatiAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.ranorexDocCheckCSharpRepositoryFolders.TrialActivationRanorexTestAutomatiAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.Recordings.CheckMvnRepoLink">
+             <summary>
+            The CheckMvnRepoLink recording.
+             </summary>
+        </member>
+        <member name="F:ranorexDocCheckCSharp.Recordings.CheckMvnRepoLink.repo">
+            <summary>
+            Holds an instance of the global::ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository repository.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CheckMvnRepoLink.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.CheckMvnRepoLink.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CheckMvnRepoLink.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ranorexDocCheckCSharp.Recordings.CheckMvnRepoLink.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CheckMvnRepoLink.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CheckMvnRepoLink.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.Recordings.CheckSideBarVal">
+             <summary>
+            The CheckSideBarVal recording.
+             </summary>
+        </member>
+        <member name="F:ranorexDocCheckCSharp.Recordings.CheckSideBarVal.repo">
+            <summary>
+            Holds an instance of the global::ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository repository.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CheckSideBarVal.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.CheckSideBarVal.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.CheckSideBarVal.menu1">
+            <summary>
+            Gets or sets the value of variable menu1.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.CheckSideBarVal.menu2">
+            <summary>
+            Gets or sets the value of variable menu2.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.CheckSideBarVal.menu3">
+            <summary>
+            Gets or sets the value of variable menu3.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CheckSideBarVal.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ranorexDocCheckCSharp.Recordings.CheckSideBarVal.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CheckSideBarVal.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CheckSideBarVal.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.Recordings.CheckTFParamDependency">
+             <summary>
+            The CheckTFParamDependency recording.
+             </summary>
+        </member>
+        <member name="F:ranorexDocCheckCSharp.Recordings.CheckTFParamDependency.repo">
+            <summary>
+            Holds an instance of the global::ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository repository.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CheckTFParamDependency.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.CheckTFParamDependency.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CheckTFParamDependency.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ranorexDocCheckCSharp.Recordings.CheckTFParamDependency.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CheckTFParamDependency.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CheckTFParamDependency.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.Recordings.CheckVersion">
+             <summary>
+            The CheckVersion recording.
+             </summary>
+        </member>
+        <member name="F:ranorexDocCheckCSharp.Recordings.CheckVersion.repo">
+            <summary>
+            Holds an instance of the global::ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository repository.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CheckVersion.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.CheckVersion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.CheckVersion.java">
+            <summary>
+            Gets or sets the value of variable java.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.CheckVersion.maven">
+            <summary>
+            Gets or sets the value of variable maven.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CheckVersion.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ranorexDocCheckCSharp.Recordings.CheckVersion.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CheckVersion.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CheckVersion.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.Recordings.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:ranorexDocCheckCSharp.Recordings.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the global::ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository repository.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ranorexDocCheckCSharp.Recordings.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.Recordings.CloseFirefox">
+             <summary>
+            The CloseFirefox recording.
+             </summary>
+        </member>
+        <member name="F:ranorexDocCheckCSharp.Recordings.CloseFirefox.repo">
+            <summary>
+            Holds an instance of the global::ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository repository.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CloseFirefox.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.CloseFirefox.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CloseFirefox.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ranorexDocCheckCSharp.Recordings.CloseFirefox.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CloseFirefox.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.CloseFirefox.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.Recordings.GoToCucumberDoc">
+             <summary>
+            The GoToCucumberDoc recording.
+             </summary>
+        </member>
+        <member name="F:ranorexDocCheckCSharp.Recordings.GoToCucumberDoc.repo">
+            <summary>
+            Holds an instance of the global::ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository repository.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToCucumberDoc.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.GoToCucumberDoc.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToCucumberDoc.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ranorexDocCheckCSharp.Recordings.GoToCucumberDoc.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToCucumberDoc.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToCucumberDoc.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.Recordings.GoToJUnitRunnerDoc">
+             <summary>
+            The GoToJUnitRunnerDoc recording.
+             </summary>
+        </member>
+        <member name="F:ranorexDocCheckCSharp.Recordings.GoToJUnitRunnerDoc.repo">
+            <summary>
+            Holds an instance of the global::ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository repository.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToJUnitRunnerDoc.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.GoToJUnitRunnerDoc.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToJUnitRunnerDoc.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ranorexDocCheckCSharp.Recordings.GoToJUnitRunnerDoc.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToJUnitRunnerDoc.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToJUnitRunnerDoc.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.Recordings.GoToRunnerOptions">
+             <summary>
+            The GoToRunnerOptions recording.
+             </summary>
+        </member>
+        <member name="F:ranorexDocCheckCSharp.Recordings.GoToRunnerOptions.repo">
+            <summary>
+            Holds an instance of the global::ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository repository.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToRunnerOptions.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.GoToRunnerOptions.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToRunnerOptions.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ranorexDocCheckCSharp.Recordings.GoToRunnerOptions.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToRunnerOptions.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToRunnerOptions.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.Recordings.GoToRunners">
+             <summary>
+            The GoToRunners recording.
+             </summary>
+        </member>
+        <member name="F:ranorexDocCheckCSharp.Recordings.GoToRunners.repo">
+            <summary>
+            Holds an instance of the global::ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository repository.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToRunners.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.GoToRunners.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToRunners.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ranorexDocCheckCSharp.Recordings.GoToRunners.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToRunners.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToRunners.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.Recordings.GoToServerDoc">
+             <summary>
+            The GoToServerDoc recording.
+             </summary>
+        </member>
+        <member name="F:ranorexDocCheckCSharp.Recordings.GoToServerDoc.repo">
+            <summary>
+            Holds an instance of the global::ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository repository.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToServerDoc.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.GoToServerDoc.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToServerDoc.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ranorexDocCheckCSharp.Recordings.GoToServerDoc.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToServerDoc.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToServerDoc.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.Recordings.GoToTFParamDoc">
+             <summary>
+            The GoToTFParamDoc recording.
+             </summary>
+        </member>
+        <member name="F:ranorexDocCheckCSharp.Recordings.GoToTFParamDoc.repo">
+            <summary>
+            Holds an instance of the global::ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository repository.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToTFParamDoc.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.GoToTFParamDoc.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToTFParamDoc.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ranorexDocCheckCSharp.Recordings.GoToTFParamDoc.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToTFParamDoc.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.GoToTFParamDoc.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.Recordings.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:ranorexDocCheckCSharp.Recordings.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the global::ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository repository.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.OpenBrowser.browser">
+            <summary>
+            Gets or sets the value of variable browser.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ranorexDocCheckCSharp.Recordings.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.Recordings.OpenChrome">
+             <summary>
+            The OpenChrome recording.
+             </summary>
+        </member>
+        <member name="F:ranorexDocCheckCSharp.Recordings.OpenChrome.repo">
+            <summary>
+            Holds an instance of the global::ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository repository.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.OpenChrome.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.OpenChrome.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.OpenChrome.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ranorexDocCheckCSharp.Recordings.OpenChrome.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.OpenChrome.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.OpenChrome.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.Recordings.OpenFirefox">
+             <summary>
+            The OpenFirefox recording.
+             </summary>
+        </member>
+        <member name="F:ranorexDocCheckCSharp.Recordings.OpenFirefox.repo">
+            <summary>
+            Holds an instance of the global::ranorexDocCheckCSharp.ranorexDocCheckCSharpRepository repository.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.OpenFirefox.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ranorexDocCheckCSharp.Recordings.OpenFirefox.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.OpenFirefox.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ranorexDocCheckCSharp.Recordings.OpenFirefox.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.OpenFirefox.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.Recordings.OpenFirefox.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ranorexDocCheckCSharp.UserCodeModule1">
+            <summary>
+            Description of UserCodeModule1.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.UserCodeModule1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ranorexDocCheckCSharp.UserCodeModule1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
