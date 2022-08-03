@@ -9,7 +9,7 @@
     <RootNamespace>ranorexDocCheckCSharp</RootNamespace>
     <AssemblyName>ranorexDocCheckCSharp</AssemblyName>
     <NoWarn>1591</NoWarn>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
     <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
     <projectdefaultrepository>4db3c91f-44d8-4c1b-b169-758752692792</projectdefaultrepository>

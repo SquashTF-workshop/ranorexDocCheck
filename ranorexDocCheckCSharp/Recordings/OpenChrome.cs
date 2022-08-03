@@ -80,7 +80,7 @@ namespace ranorexDocCheckCSharp.Recordings
             Init();
 
             Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://squash-tf.readthedocs.io/en/latest/' with browser 'Chrome' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://squash-tf.readthedocs.io/en/latest/", "Chrome", "", false, false, false, false, false, true);
+            Host.Current.OpenBrowser("https://squash-tf.readthedocs.io/en/latest/", "Chrome", "", false, false, false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
         }
